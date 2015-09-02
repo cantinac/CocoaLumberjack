@@ -1,36 +1,47 @@
 framework module CocoaLumberjack {
 	umbrella header "CocoaLumberjack.h"
 	
+	config_macros [exhaustive] DD_LEGACY_MACROS
+	
 	export *
 	module * { export * }
 	
 	textual header "DDLogMacros.h"
+	textual header "DDAssertMacros.h"
+
+	explicit module tty {
+		header "DDTTYLogger.h"
+	}
+
+	explicit module file {
+		header "DDFileLogger.h"
+	}
+
+	explicit module asl {
+		header "DDASLLogger.h"
+		module capture {
+			header "DDASLLogCapture.h"
+			export *
+		}
+	}
 	
-	exclude header "DDLog+LOGV.h"
-	exclude header "DDLegacyMacros.h"
+	explicit module logv {
+		header "DDLog+LOGV.h"
+	}
+
+	explicit module DDAbstractDatabaseLogger {
+		header "DDAbstractDatabaseLogger.h"
+	}
 	
 	explicit module DDContextFilterLogFormatter {
 		header "DDContextFilterLogFormatter.h"
-		export *
 	}
 	
 	explicit module DDDispatchQueueLogFormatter {
 		header "DDDispatchQueueLogFormatter.h"
-		export *
 	}
 	
 	explicit module DDMultiFormatter {
 		header "DDMultiFormatter.h"
-		export *
-	}
-	
-	explicit module DDASLLogCapture {
-		header "DDASLLogCapture.h"
-		export *
-	}
-	
-	explicit module DDAbstractDatabaseLogger {
-		header "DDAbstractDatabaseLogger.h"
-		export *
 	}
 }
