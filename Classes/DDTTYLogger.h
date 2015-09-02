@@ -28,10 +28,6 @@
  * you may choose to use only a file logger and a tty logger.
  **/
 
-// Disable legacy macros
-#ifndef DD_LEGACY_MACROS
-    #define DD_LEGACY_MACROS 0
-#endif
 
 #import "DDLog.h"
 

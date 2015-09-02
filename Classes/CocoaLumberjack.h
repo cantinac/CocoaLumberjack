@@ -59,10 +59,6 @@
 
 #import <Foundation/Foundation.h>
 
-// Disable legacy macros
-#ifndef DD_LEGACY_MACROS
-    #define DD_LEGACY_MACROS 0
-#endif
 
 // Core
 #import "DDLog.h"
@@ -79,3 +75,6 @@
 #import "DDASLLogger.h"
 #import "DDFileLogger.h"
 
+#if DD_LEGACY_MACROS
+    #import "DDLegacyMacros.h"
+#endif
