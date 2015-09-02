@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
-#import <CocoaLumberjack/CocoaLumberjack.h>
-#import <CocoaLumberjack/DDTTYLogger.h>
+@import CocoaLumberjack;
+@import CocoaLumberjack.tty;
 
 // Log levels: off, error, warn, info, verbose
 static const DDLogLevel ddLogLevel = DDLogLevelVerbose;

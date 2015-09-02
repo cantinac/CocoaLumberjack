@@ -8,7 +8,7 @@
 
 import UIKit
 import CocoaLumberjack
-import CocoaLumberjackSwift
+import CocoaLumberjack.tty
 
 let ddloglevel = DDLogLevel.Verbose
 
