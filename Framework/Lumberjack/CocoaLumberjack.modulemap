@@ -1,13 +1,11 @@
 framework module CocoaLumberjack {
 	umbrella header "CocoaLumberjack.h"
-	
-	config_macros [exhaustive] DD_LEGACY_MACROS
-	
+
 	export *
 	module * { export * }
 	
-	textual header "DDLogMacros.h"
-	textual header "DDAssertMacros.h"
+	header "DDLogMacros.h"
+	header "DDAssertMacros.h"
 
 	explicit module tty {
 		header "DDTTYLogger.h"
