@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B775552D1BBEEADC6A0BBB2FD048B6AA26CB309D" : 0,
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E61CD31E-1373-4047-9067-19F02EB12DA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B775552D1BBEEADC6A0BBB2FD048B6AA26CB309D" : "..",
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : "CocoaLumberjack\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lumberjack",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lumberjack.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cantinac\/CocoaLumberjack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cantinac\/XMPPFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B775552D1BBEEADC6A0BBB2FD048B6AA26CB309D"
+    }
+  ]
+}

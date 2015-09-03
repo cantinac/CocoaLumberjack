@@ -1256,6 +1256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/Lumberjack/CocoaLumberjack.modulemap";
 				OTHER_CFLAGS = "$(SHARED_FW_DEFINES)";
+				OTHER_SWIFT_FLAGS = "-DDD_LEGACY_MACROS=0 -D DD_LEGACY_MACROS=0";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(SHARED_PRODUCT_NAME)";
 				SDKROOT = iphoneos;
@@ -1283,6 +1284,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/Lumberjack/CocoaLumberjack.modulemap";
 				OTHER_CFLAGS = "$(SHARED_FW_DEFINES)";
+				OTHER_SWIFT_FLAGS = "-DDD_LEGACY_MACROS=0 -D DD_LEGACY_MACROS=0";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(SHARED_PRODUCT_NAME)";
 				SDKROOT = iphoneos;

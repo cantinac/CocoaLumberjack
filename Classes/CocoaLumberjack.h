@@ -67,14 +67,9 @@ FOUNDATION_EXPORT const unsigned char CocoaLumberjackVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CocoaLumberjack/PublicHeader.h>
 
-
 // Core
 #import "DDLog.h"
 
 // Main macros
 #import "DDLogMacros.h"
 #import "DDAssertMacros.h"
-
-#if DD_LEGACY_MACROS
-    #import "DDLegacyMacros.h"
-#endif
