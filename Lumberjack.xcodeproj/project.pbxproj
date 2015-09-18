@@ -627,9 +627,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18F3BEF61A81D8B700692297 /* CocoaLumberjack (osx swift) */ = {
+		18F3BEF61A81D8B700692297 /* CocoaLumberjack-osx-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F3BF0C1A81D8B700692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (osx swift)" */;
+			buildConfigurationList = 18F3BF0C1A81D8B700692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-osx-swift" */;
 			buildPhases = (
 				18F3BEF91A81D8B700692297 /* Headers */,
 				18F3BF071A81D8B700692297 /* Sources */,
@@ -640,7 +640,7 @@
 			);
 			dependencies = (
 			);
-			name = "CocoaLumberjack (osx swift)";
+			name = "CocoaLumberjack-osx-swift";
 			productName = Lumberjack;
 			productReference = 18F3BF0F1A81D8B700692297 /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
@@ -664,9 +664,9 @@
 			productReference = 18F3BF5F1A81DD2E00692297 /* iOSSwiftTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18F3BF881A81DF5600692297 /* CocoaLumberjack (ios) */ = {
+		18F3BF881A81DF5600692297 /* CocoaLumberjack-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F3BFA41A81DF5600692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios)" */;
+			buildConfigurationList = 18F3BFA41A81DF5600692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios" */;
 			buildPhases = (
 				18F3BF891A81DF5600692297 /* Headers */,
 				18F3BF981A81DF5600692297 /* Sources */,
@@ -677,14 +677,14 @@
 			);
 			dependencies = (
 			);
-			name = "CocoaLumberjack (ios)";
+			name = "CocoaLumberjack-ios";
 			productName = Lumberjack;
 			productReference = 18F3BFA71A81DF5600692297 /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18F3BFA91A81DFA200692297 /* CocoaLumberjack (ios swift) */ = {
+		18F3BFA91A81DFA200692297 /* CocoaLumberjack-ios-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F3BFBF1A81DFA200692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios swift)" */;
+			buildConfigurationList = 18F3BFBF1A81DFA200692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios-swift" */;
 			buildPhases = (
 				18F3BFAC1A81DFA200692297 /* Headers */,
 				18F3BFBA1A81DFA200692297 /* Sources */,
@@ -695,14 +695,14 @@
 			);
 			dependencies = (
 			);
-			name = "CocoaLumberjack (ios swift)";
+			name = "CocoaLumberjack-ios-swift";
 			productName = Lumberjack;
 			productReference = 18F3BFC21A81DFA200692297 /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		18F3BFD61A81E06E00692297 /* CocoaLumberjack (ios static) */ = {
+		18F3BFD61A81E06E00692297 /* CocoaLumberjack-ios-static */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F3BFE81A81E06E00692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios static)" */;
+			buildConfigurationList = 18F3BFE81A81E06E00692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios-static" */;
 			buildPhases = (
 				18F3BFD31A81E06E00692297 /* Sources */,
 				18F3BFD41A81E06E00692297 /* Frameworks */,
@@ -712,7 +712,7 @@
 			);
 			dependencies = (
 			);
-			name = "CocoaLumberjack (ios static)";
+			name = "CocoaLumberjack-ios-static";
 			productName = "CocoaLumberjack-iOS-Static";
 			productReference = 18F3BFD71A81E06E00692297 /* libCocoaLumberjack.a */;
 			productType = "com.apple.product-type.library.static";
@@ -753,9 +753,9 @@
 			productReference = 55CCBEFF19BA679200957A39 /* SwiftTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DCB3185014EB418E001CFBEE /* CocoaLumberjack (osx) */ = {
+		DCB3185014EB418E001CFBEE /* CocoaLumberjack-osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCB3186614EB418E001CFBEE /* Build configuration list for PBXNativeTarget "CocoaLumberjack (osx)" */;
+			buildConfigurationList = DCB3186614EB418E001CFBEE /* Build configuration list for PBXNativeTarget "CocoaLumberjack-osx" */;
 			buildPhases = (
 				DCB3184E14EB418E001CFBEE /* Headers */,
 				DCB3184C14EB418E001CFBEE /* Sources */,
@@ -766,7 +766,7 @@
 			);
 			dependencies = (
 			);
-			name = "CocoaLumberjack (osx)";
+			name = "CocoaLumberjack-osx";
 			productName = Lumberjack;
 			productReference = DCB3185114EB418E001CFBEE /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
@@ -830,11 +830,11 @@
 				55CCBEFE19BA679200957A39 /* SwiftTest */,
 				18F3BF5E1A81DD2E00692297 /* iOSSwiftTest */,
 				18F3BFF11A81E0C700692297 /* iOSLibStaticTest */,
-				DCB3185014EB418E001CFBEE /* CocoaLumberjack (osx) */,
-				18F3BEF61A81D8B700692297 /* CocoaLumberjack (osx swift) */,
-				18F3BF881A81DF5600692297 /* CocoaLumberjack (ios) */,
-				18F3BFA91A81DFA200692297 /* CocoaLumberjack (ios swift) */,
-				18F3BFD61A81E06E00692297 /* CocoaLumberjack (ios static) */,
+				DCB3185014EB418E001CFBEE /* CocoaLumberjack-osx */,
+				18F3BEF61A81D8B700692297 /* CocoaLumberjack-osx-swift */,
+				18F3BF881A81DF5600692297 /* CocoaLumberjack-ios */,
+				18F3BFA91A81DFA200692297 /* CocoaLumberjack-ios-swift */,
+				18F3BFD61A81E06E00692297 /* CocoaLumberjack-ios-static */,
 			);
 		};
 /* End PBXProject section */
@@ -1034,17 +1034,17 @@
 /* Begin PBXTargetDependency section */
 		57D3AC841B975A8E00725336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCB3185014EB418E001CFBEE /* CocoaLumberjack (osx) */;
+			target = DCB3185014EB418E001CFBEE /* CocoaLumberjack-osx */;
 			targetProxy = 57D3AC831B975A8E00725336 /* PBXContainerItemProxy */;
 		};
 		57D3AC8B1B975BA600725336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18F3BEF61A81D8B700692297 /* CocoaLumberjack (osx swift) */;
+			target = 18F3BEF61A81D8B700692297 /* CocoaLumberjack-osx-swift */;
 			targetProxy = 57D3AC8A1B975BA600725336 /* PBXContainerItemProxy */;
 		};
 		57D3AC901B975C3B00725336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18F3BFA91A81DFA200692297 /* CocoaLumberjack (ios swift) */;
+			target = 18F3BFA91A81DFA200692297 /* CocoaLumberjack-ios-swift */;
 			targetProxy = 57D3AC8F1B975C3B00725336 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1576,7 +1576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18F3BF0C1A81D8B700692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (osx swift)" */ = {
+		18F3BF0C1A81D8B700692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-osx-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BF0D1A81D8B700692297 /* Debug */,
@@ -1594,7 +1594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F3BFA41A81DF5600692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios)" */ = {
+		18F3BFA41A81DF5600692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BFA51A81DF5600692297 /* Debug */,
@@ -1603,7 +1603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F3BFBF1A81DFA200692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios swift)" */ = {
+		18F3BFBF1A81DFA200692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BFC01A81DFA200692297 /* Debug */,
@@ -1612,7 +1612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F3BFE81A81E06E00692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack (ios static)" */ = {
+		18F3BFE81A81E06E00692297 /* Build configuration list for PBXNativeTarget "CocoaLumberjack-ios-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18F3BFE91A81E06E00692297 /* Debug */,
@@ -1648,7 +1648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCB3186614EB418E001CFBEE /* Build configuration list for PBXNativeTarget "CocoaLumberjack (osx)" */ = {
+		DCB3186614EB418E001CFBEE /* Build configuration list for PBXNativeTarget "CocoaLumberjack-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCB3186714EB418E001CFBEE /* Debug */,
